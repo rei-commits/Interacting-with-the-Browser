@@ -6,7 +6,7 @@ This is a simple interactive web-based game where users try to guess the correct
 
 ## Features
 
-- ynamic Image Blur: The car image starts with a blur and becomes progressively clearer with each incorrect guess.
+- Dynamic Image Blur: The car image starts with a blur and becomes progressively clearer with each incorrect guess.
 - User Feedback: Informative messages guide the player by tracking remaining guesses and indicating whether the guess was correct or incorrect.
 - Random Car Selection: A random car model is chosen for each new game.
 - Reset Button: Start a new game with a different random car model at any time.
