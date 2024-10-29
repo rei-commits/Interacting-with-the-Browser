@@ -12,16 +12,16 @@
       <h1>Car Model Guessing Game</h1>
     </header>
 
-    <main>
+    <main class="container">
       <!-- Car image element that updates with each new game -->
-      <img id="car-image" src="" alt="Car image" style="width: 300px; height: auto;" />
-      
-      <br />
+      <img id="car-image" src="" alt="Car image" />
 
       <!-- Guessing input and button -->
-      <label for="car-input">Guess the car model:</label>
-      <input type="text" id="car-input" placeholder="Enter car model name" />
-      <button id="guess-button" type="button">Guess</button>
+      <div class="input-container">
+        <label for="car-input">Guess the car model:</label>
+        <input type="text" id="car-input" placeholder="Enter car model name" />
+        <button id="guess-button" type="button">Guess</button>
+      </div>
 
       <!-- Feedback message container -->
       <div id="feedback"></div>
