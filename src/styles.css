@@ -30,3 +30,10 @@ button:hover {
   border-color: #09507c;
   background-color: #deedf2;
 }
+
+#car-image {
+  width: 300px;
+  height: auto;
+  filter: blur(5px); /* Start with a high blur */
+  transition: filter 0.3s ease; /* Smoothly transitions the blur */
+}
