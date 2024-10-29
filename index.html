@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Model Guessing Game</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Car Model Guessing Game</h1>
+    </header>
+
+    <main>
+      <!-- Car image element that updates with each new game -->
+      <img id="car-image" src="" alt="Car image" style="width: 300px; height: auto;" />
+      
+      <br />
+
+      <!-- Guessing input and button -->
+      <label for="car-input">Guess the car model:</label>
+      <input type="text" id="car-input" placeholder="Enter car model name" />
+      <button id="guess-button" type="button">Guess</button>
+
+      <!-- Feedback message container -->
+      <div id="feedback"></div>
+
+      <!-- Button to start a new game -->
+      <button id="new-game-button" type="button">New Game</button>
+    </main>
+
+    <!-- Link to JavaScript file -->
+    <script src="src/index.js"></script>
+  </body>
+</html>
